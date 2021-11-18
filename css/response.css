@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+@media all and (max-width:1250px){
+	
+	#header { height:60px; }
+	.header-wrap { height:60px; }
+	.header-wrap>h2 { width:86px; height:20px; padding:20px 0 20px 25px; }
+
+	.header-wrap>#nav,
+	.header-wrap>#gnaside { display:none; }
+	#appBar-wrap{ display:block; } 
+	
+	
+	#section1 { background:#000 url(../img/genesis-g80-experience_kv_190527.jpg) no-repeat 50% 60px; background-size:120% auto; }
+	#section1:after { top:80px; width:94%; left:3%; }
+
+	.section1-video-wrap { display:none; }
+
+	.header-wrap>h2>a>img.pc { display:none; }
+	.header-wrap>h2>a>img.mobile { display:block;  }
+	
+	.section1-content { bottom:20%; }
+	.section1-content>h2 { font-size:50px; }
+	.section1-content>h3 { font-size:17px; padding:60px 0 70px 0; }
+	.section1-content>div.section1-button-wrap>button { display:block; margin:10px auto; }
+	
+	#section2>div>ul>li { width:100%; }
+	#section2>div>ul>li>a>span { border-bottom:1px solid #ddd; padding:20px 0; margin:0 40px; }
+	#section2>div>ul>li:last-child>a>span { border-bottom:0; }
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:50%; }	
+}
+
+
+/* 가로형 크기인 경우 Landscape */
+@media all and (orientation:landscape) and (max-width:1250px) {
+	.section1-content { bottom:3%; }
+	.section1-content>h2 { font-size:40px; }
+	.section1-content>h3 { font-size:14px; padding:10px 0 10px 0; }
+	.section1-content>div.section1-button-wrap>button { display:block; margin:5px auto; }
+	
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:75%;  }	
+	
+}
+
+
+
+@media all and (max-width:1000px){
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li { padding-bottom:50px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(4) { padding-bottom:100px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li>a { font-size:28px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(5)>a,
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(6)>a { font-size:20px; }
+	.msub2>ul>li>a>span { font-size:20px; }
+
+	
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:55%; }	
+}
+
+@media all and (max-width:900px){
+	.footer-row1>ul>li { display:inline-block; margin:0 2%;}
+	.footer-row2>ul>li { display:inline-block; margin:0 3%; }
+		
+		.footer-row3 { width:100%; height:auto; }
+		.footer-row3>.footer-row3-left-wrap { float:none;  padding:5px 0 21.5px 0; }
+		.footer-row3>.footer-row3-left-wrap>ul { width:auto; text-align:center; }
+		.footer-row3>.footer-row3-left-wrap>ul>li {  display:inline-block; margin:0 15px; }
+
+		.footer-row3>.footer-row3-right-wrap { float:none; padding:24px 0; text-align:center; border-top:1px solid #ddd; }
+		.footer-row3>.footer-row3-right-wrap>address { color:#666; font-size:12px; }
+
+}
+
+@media all and (max-width:800px){
+
+	.mobile-menu-wrap>div { padding:80px 10% 5% 10%; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li { padding-bottom:30px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(4) { padding-bottom:60px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li>a { font-size:23px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(5)>a,
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(6)>a { font-size:20px; }
+	.msub2>ul>li>a>span { font-size:18px; }
+	
+	.msub>ul>li { padding-bottom:18px; }
+	.msub>ul>li>a { font-size:18px; }
+
+	#section1:after { top:80px; width:92%; left:4%; }	
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:60%; }	
+
+	.arrow-left-wrap  { display:none; }
+	.arrow-right-wrap { display:none; }
+	#section3>div>div.section3-slide-container>ul.navBtn-wrap { display:none; }
+	#section3 { padding-bottom:60px; }
+	#section3>div>div.section3-slide-container>div.section3-slide-view { margin:0; }
+	#section3>div>div.section3-slide-container>div.section3-slide-view>ul.section3-slide-wrap>li>div { margin-right:0; }
+    #section3>div>div.section3-slide-container>div.section3-slide-view>ul.section3-slide-wrap>li>div>div.slide-text-wrap { width:100%; padding:0 5%; box-sizing:border-box; }
+	#section3>div>div.section3-slide-container>div.section3-slide-view>ul.section3-slide-wrap>li>div>div.slide-text-wrap>h3 { font-size:18px; line-height:140%; }
+	#section3>div>div.section3-slide-container>div.section3-slide-view>ul.section3-slide-wrap>li>div>div.slide-text-wrap>p { font-size:13px; }
+	
+	.navBtn-text-wrap {	display:block; }  /* 네비게이션 텍스트 넘버링 */
+
+}
+
+@media all and (max-width:660px){
+	.footer-row1>ul>li { display:inline-block; margin:0 2%; }
+	.footer-row2>ul>li { display:inline-block; margin:0 1%; }
+		
+		.footer-row3 { width:100%; height:auto; }
+		.footer-row3>.footer-row3-left-wrap { float:none;  padding:5px 0 21.5px 0; }
+		.footer-row3>.footer-row3-left-wrap>ul { width:auto; text-align:center; }
+		.footer-row3>.footer-row3-left-wrap>ul>li {  display:inline-block; margin:0 15px; }
+
+		.footer-row3>.footer-row3-right-wrap { float:none; padding:24px 0; text-align:center; border-top:1px solid #ddd; }
+		.footer-row3>.footer-row3-right-wrap>address { color:#666; font-size:12px; }
+}
+
+
+@media all and (max-width:600px){
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:65%; }	
+}
+
+@media all and (max-width:500px){
+	.mobile-menu-wrap>div { padding:50px 7% 2% 7%; }	
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li { padding-bottom:20px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(4) { padding-bottom:40px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li>a { font-size:20px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(5)>a,
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(6)>a { font-size:18px; }
+
+	.msub2>ul>li>a>span { font-size:16px; }	
+	
+	.msub>ul>li { padding-bottom:16px; }
+	.msub>ul>li>a { font-size:16px; }	
+	
+	#section1:after { top:80px; width:90%; left:5%; }	
+	.section1-content { bottom:10%; }
+	.section1-content>h2 { font-size:40px; }
+	.section1-content>h3 { font-size:14px; padding:30px 0 30px 0; }
+	
+	#section2>div>ul>li { height:300px; }
+	#section2>div>ul>li>a>span>span.section2-car-img-wrap>img { width:100%;  }	
+
+	.footer-row1>ul>li { display:inline-block; margin:0 2%; }
+	
+	.footer-row2 { width:100%; height:auto; padding:30px 0 27px 0; background:#dbdbdb; }
+	.footer-row2>ul { padding:0; margin:0; text-align:left; padding:0 10px 0 30px; }	
+	.footer-row2>ul>li { display:inline-block; width:49%; padding:7px 0; margin:0; }
+	.footer-row2>ul>li>a { font-size:17px; }		
+	
+		.footer-row3 { width:100%; height:auto; }
+		.footer-row3>.footer-row3-left-wrap { float:none;  padding:5px 0 21.5px 0; }
+		.footer-row3>.footer-row3-left-wrap>ul { width:auto; text-align:left; padding:0 10px 0 30px; }
+		.footer-row3>.footer-row3-left-wrap>ul>li {  display:inline-block; width:49%; padding:7px 0; margin:0; }
+
+		.footer-row3>.footer-row3-right-wrap { float:none; padding:24px 0; text-align:center; border-top:1px solid #ddd; }
+		.footer-row3>.footer-row3-right-wrap>address { font-size:10px; }
+	
+	
+}
+
+
+
+@media all and (max-width:400px){
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li { padding-bottom:18px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(4) { padding-bottom:36px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li>a { font-size:18px; }
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(5)>a,
+	.mobile-nav-wrap>.mobile-nav-btn-wrap>li:nth-child(6)>a { font-size:16px; }
+	.msub2>ul>li>a>span { font-size:15px; }
+	
+	.msub>ul>li { padding-bottom:15px; }
+	.msub>ul>li>a { font-size:15px; }	
+	
+}
+
